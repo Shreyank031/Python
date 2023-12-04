@@ -54,15 +54,3 @@ myenv\Scripts\activate
 # Activate the virtual environment (on macOS/Linux)
 source myenv/bin/activate
 ```
-
-
-
-
-
-
-
-
-
-
-
-
