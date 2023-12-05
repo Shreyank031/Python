@@ -6,6 +6,6 @@
 - What are Python workspaces ?
 
 ## Day-2: Command line arguments
--What is command line arguments in Python?
--What is sys module and how to use it?
--An easy to understand Example code.
+- What is command line arguments in Python?
+- What is sys module and how to use it?
+- An easy to understand Example code.
