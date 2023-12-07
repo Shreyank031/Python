@@ -24,5 +24,6 @@ jobs:
 
     - name: Run tests
       run: |
-        cd src
-        python -m pytest add.py
+        cd src/Command-line-arg_Env-var
+        pip install pytest pytest-cov
+        pytest *.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
