@@ -20,4 +20,16 @@ def encrypt(plain_text,shift_no):
     new_word    += new_letter
   print(f"The encoded word is {new_word}")
 
-encrypt(plain_text=text, shift_no=shift)
+def decrypt(encrypted_text,shift_no):
+    decrypted_word = ""
+    for letter in encrypted_text:
+        position         = alphabet.index(letter)
+        new_position     = position - shift_no
+        decrypted_letter = alphabet[new_position]
+        decrypted_word  += decrypted_letter
+    print(f"The decrypted word is {decrypted_word}")
+    
+if direction == 'encode':
+    encrypt(plain_text=text,shift_no=shift)
+elif direction == 'decode':
+    decrypt(encrypted_text=text,shift_no=shift)
